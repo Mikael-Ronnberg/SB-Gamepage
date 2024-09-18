@@ -55,6 +55,11 @@ iframe{
   border-radius: 10px;
 }
 
+.text-column, p {
+  padding-left: 3rem;
+  text-align: justify;
+}
+
 .input-submit {
   height: 200px;
   width: 100%;

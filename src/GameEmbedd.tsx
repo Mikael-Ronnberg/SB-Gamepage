@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-
-import "./App.css";
 import {
   addNewScore,
   deleteScore,
@@ -128,7 +126,7 @@ export const GameEmbed = () => {
         {score && score !== 0 && checkLeaderboard(score) ? (
           <section>
             <p>
-              Congratulations! You scored enough points to make it onto the
+              Congratulations! You scored enough points to make it to the
               leaderboard.
             </p>
             <p>Please enter your name (maximum 8 letters).</p>
@@ -147,12 +145,12 @@ export const GameEmbed = () => {
             </div>
           </section>
         ) : (
-          <>
+          <div className="text-column">
             <p>Swim by pressing spacebar</p>
             <p>Use arrow left and right to avoid dangers</p>
             <p>Collect litter and gather points to compete for the top 10</p>
             <p>Don't forget to get some fresh air from time to time!</p>
-          </>
+          </div>
         )}
       </div>
     </div>
