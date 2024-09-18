@@ -82,6 +82,7 @@ button {
   width: 30vw;
   border-radius: 10px !important;
   background-color: #353c43 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
 }
 
 .input-col {

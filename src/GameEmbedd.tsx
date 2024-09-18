@@ -117,7 +117,7 @@ export const GameEmbed = () => {
           {score && score !== 0 ? (
             <section className="submit-score">
               <h2>Your Score</h2>
-              <p>{score}</p>
+              <span>{score}</span>
             </section>
           ) : null}
         </div>
