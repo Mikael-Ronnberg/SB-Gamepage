@@ -1,13 +1,20 @@
 #root {
-  max-width: 1480px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   font-family: 'Retro Gaming', sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 }
 
 .main-container {
