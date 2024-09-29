@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+# SB Game Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Version](https://img.shields.io/badge/Live%20Version-Click%20Here-brightgreen)](https://sb-gamepage.pages.dev/)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+SB Game Page is a simple fullstack web application designed to run the game from this [repo](https://github.com/Mikael-Ronnberg/SB-Run). It utilizes **React TypeScript** for the frontend and **Firebase** for backend services. While the current version is desktop-only, a mobile-friendly version is in the works.
 
-## Expanding the ESLint configuration
+A live version of the application is available [here](https://sb-gamepage.pages.dev/).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Screenshot 2024-09-29 at 13 27 16](https://github.com/user-attachments/assets/25006ccf-f23a-4512-8816-faf4973176e5)
+![Screenshot 2024-09-29 at 13 26 55](https://github.com/user-attachments/assets/71eac083-15b0-4d2a-a87f-8256ccd307e0)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Play the game and score points.
+- Compete for a spot on the **Top 10 Leaderboard**.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Technologies Used
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **React** (TypeScript)
+- **Firebase** (Backend)
+- **Godot 3.5** (Game Engine)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## License 
+MIT
